@@ -19,7 +19,7 @@ const cinzel = Cinzel({
 const TypeForm = ()=>{
     return(
         <div className="py-18">
-            <div className="max-w-7xl w-full mx-auto">
+            <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto">
                 <div className="max-w-6xl w-full mx-auto">
                     <div className="mb-12">
                         <h2 className={`${cinzel.className} font-bold text-2xl
