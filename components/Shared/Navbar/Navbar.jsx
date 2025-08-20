@@ -17,12 +17,13 @@ export default function Navbar() {
   const Links = [
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
-    { title: "Dashboard", path: "/dashboard" },
-    { title: "My Courses", path: "/myCourse" },
+    { title: "Our Course", path: "/courses" },
+    { title: "Department", path: "/department" },
+    { title: "Help Desk", path:"/helpDesk" }
   ];
 
   return (
-    <div className="py-4 bg-[#1a75ff]">
+    <div className=" bg-slate-700">
       <div className="max-w-7xl w-full mx-auto px-6 lg:px-0">
         <div className="navbar">
           
@@ -48,9 +49,9 @@ export default function Navbar() {
                 ))}
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl text-white">
-              Portal Management
-            </a>
+            <Link href="/" className=" text-xl text-white">
+              EWE <sup className="text-green-500 font-bold text-lg">Portal</sup>
+            </Link>
           </div>
 
           
@@ -85,24 +86,29 @@ export default function Navbar() {
                     </div>
                  
                 </span>
-                <button onClick={() => signOut({callbackUrl: '/'})} className="px-6 py-2 shadow-lg shadow-[#005ce6] uppercase
-                   bg-[#005ce6] rounded-2xl cursor-pointer text-white font-bold">
-                  Logout
-                </button>
+
+
+                 <button
+                            onClick={() => signOut({ callbackUrl: "/" })}
+                            className="px-5 py-2 uppercase cursor-pointer bg-red-500  text-white font-semibold  transition-colors"
+                          >
+                            Logout
+                          </button>
+                
               </div>
             ) : (
               <>
                 <button
-                  className="px-6 py-2 shadow-lg shadow-[#005ce6] uppercase
-                   bg-[#005ce6] rounded-2xl cursor-pointer text-white font-bold"
+                  className="px-6 py-2 bg-green-500 uppercase
+                     cursor-pointer text-white font-bold"
                   onClick={() =>
                     document.getElementById("login_modal").showModal()
                   }
                 >
                   Login
                 </button>
-                <dialog id="login_modal" className="modal bg-sky-900">
-                  <div className="modal-box bg-sky-900">
+                <dialog id="login_modal" className="modal bg-slate-900">
+                  <div className="modal-box bg-slate-900">
                     <h3 className={`${cinzel.className} font-bold text-2xl mb-4 text-white text-center`}>
                       Login to Portal
                     </h3>
@@ -113,7 +119,7 @@ export default function Navbar() {
                         onClick={() =>
                           signIn("google", { callbackUrl: "/typeForm" })
                         }
-                        className="w-full flex items-center justify-center gap-2 bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition"
+                        className="w-full flex items-center justify-center gap-2 text-white py-2 cursor-pointer  bg-green-600 transition"
                       >
                         <FaGoogle /> Continue with Google
                       </button>
@@ -122,7 +128,7 @@ export default function Navbar() {
                         onClick={() =>
                           signIn("github", { callbackUrl: "/typeForm" })
                         }
-                        className="w-full flex items-center justify-center gap-2 bg-gray-800 text-white py-2 rounded-lg hover:bg-gray-900 transition"
+                        className="w-full flex items-center justify-center gap-2 text-white py-2 cursor-pointer bg-green-600 transition"
                       >
                         <FaGithub /> Continue with GitHub
                       </button>
@@ -130,7 +136,7 @@ export default function Navbar() {
 
                     <div className="modal-action">
                       <form method="dialog">
-                        <button className="btn uppercase bg-sky-800 text-white">Close</button>
+                        <button className="btn uppercase bg-red-500 text-white">Close</button>
                       </form>
                     </div>
                   </div>
