@@ -31,7 +31,7 @@ const VideoBanner = () => {
 
       {/* Overlay Content */}
       <div className="relative z-10 flex justify-center items-center h-full bg-black/50">
-       <div className="max-w-5xl w-full mx-auto">
+       <div className="max-w-7xl w-full mx-auto">
             <div className="space-y-4">
             <h3 className={`${inter.className} text-white font-bold text-2xl`}>Welcome To Our Website</h3>
             <h1 className={`${cinzel.className} text-white text-5xl font-bold`}>Bangladesh Science University</h1>
