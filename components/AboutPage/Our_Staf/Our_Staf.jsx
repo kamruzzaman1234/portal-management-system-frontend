@@ -42,7 +42,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
                     <div className="flex justify-center items-center">
                         <Swiper
                      slidesPerView={4}
-                     spaceBetween={30}
+                     spaceBetween={40}
                      freeMode={true}
                      pagination={{
                      clickable: true,
@@ -52,39 +52,164 @@ import { FreeMode, Pagination } from 'swiper/modules';
                     >
                     <SwiperSlide>
                         <div className="shadow-lg relative group overflow-hidden">
-    
-    <div className="w-full h-full lg:h-[400px]">
-        <img
-            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            alt=""
-        />
-    </div>
-
-    
-    <div
-        className="flex justify-center items-center flex-col py-6 bg-black opacity-40
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black
                    absolute bottom-[-100%] left-0 right-0 
-                   transition-all duration-500 ease-in-out group-hover:bottom-0"
-    >
-        <h3
-            className={`${cinzel.className} text-2xl font-semibold text-white`}
-        >
-            Mr. Hasin Ahmed
-        </h3>
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
         <h4 className="text-white">Professor, Department of EEE</h4>
     </div>
 </div>
 
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black opacity-40
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="shadow-lg relative group overflow-hidden">
+                          <div className="w-full h-full lg:h-[300px]">
+                            <img
+                            src="https://i.ibb.co.com/3mDL8BJp/pexels-kampus-5940831.jpg"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          alt="" />
+                       </div>
+                     <div className="flex justify-center items-center flex-col py-6 bg-black 
+                   absolute bottom-[-100%] left-0 right-0 
+                   transition-all duration-500 ease-in-out group-hover:bottom-0">
+                     <h3 className={`${cinzel.className} text-2xl font-semibold text-white`}>
+                         Mr. Hasin Ahmed
+                    </h3>
+        <h4 className="text-white">Professor, Department of EEE</h4>
+    </div>
+</div>
+
+                    </SwiperSlide>
+                    
                   </Swiper>
                     </div>
                 </div>
