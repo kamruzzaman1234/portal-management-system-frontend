@@ -36,27 +36,27 @@ const Announcement = () => {
               aria-label="Annoucement"
               defaultChecked
             />
-            <div className="tab-content border-base-300 bg-blue-100 z-10 px-6 py-8 mt-6">
+            <div className="tab-content border-base-300 z-10 px-6 py-8 mt-6">
               <div className="flex justify-between">
                 <div className="flex flex-col relative z-50 gap-8">
                   {/* Item 1 */}
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         17
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Aug
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Pre Registration (Phase-1) schedule, Fall 2025
                       </Link>
@@ -66,20 +66,20 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         07
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Aug
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Addmission Test Result, Fall 2025
                       </Link>
@@ -89,20 +89,20 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         20
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Jul
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Mid-Term Exam Schedule For Summer
                       </Link>
@@ -112,34 +112,34 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         20
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Jul
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         US "Wishlist" Event Schedule, Fall 2025
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div>
+                {/* <div>
                   <Link
-                    href="/viewAll"
+                    href=""
                     className={`${cinzel.className} text-sm px-5 py-3 font-semibold border-2 border-slate-900 transition-all delay-150 duration-300 hover:bg-slate-900 hover:text-white`}
                   >
                     View Details
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -150,27 +150,27 @@ const Announcement = () => {
               className={`${cinzel.className} tab relative z-50 text-white border-2 border-white text-2xl font-semibold hover:text-white`}
               aria-label="Academic Dates"
             />
-            <div className="tab-content border-base-300 bg-blue-100 z-10 px-6 py-8 mt-6">
+            <div className="tab-content border-base-300  z-10 px-6 py-8 mt-6">
               <div className="flex justify-between">
                 <div className="flex flex-col relative z-50 gap-8">
                   {/* Item 1 */}
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         05
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Sep
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Eid-E Miladun Nabi* -University closed
                       </Link>
@@ -180,20 +180,20 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         14
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Sep
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Final Examinations
                       </Link>
@@ -203,20 +203,20 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         20
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Sep
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Last Day of Submiting Grades
                       </Link>
@@ -226,34 +226,34 @@ const Announcement = () => {
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2
-                        className={`${cinzel.className} text-6xl font-bold text-black`}
+                        className={`${cinzel.className} text-6xl font-bold text-white`}
                       >
                         25
                       </h2>
                       <h3
-                        className={`${cinzel.className} text-lg font-bold text-black`}
+                        className={`${cinzel.className} text-lg font-bold text-white`}
                       >
                         Sep
                       </h3>
                     </div>
                     <div>
                       <Link
-                        href="/"
-                        className={`${inter.className} text-3xl font-semibold hover:underline text-black`}
+                        href=""
+                        className={`${inter.className} text-3xl font-semibold hover:underline text-white`}
                       >
                         Pulications of Result
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div>
+                {/* <div>
                   <Link
-                    href="/viewAll"
+                    href=""
                     className={`${cinzel.className} text-sm px-5 py-3 font-semibold border-2 border-slate-900 transition-all delay-150 duration-300 hover:bg-slate-900 hover:text-white`}
                   >
                     View Details
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

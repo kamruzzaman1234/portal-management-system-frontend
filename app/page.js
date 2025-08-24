@@ -14,9 +14,10 @@ export default function Home() {
     <div>
       <main>
           <VideoBanner></VideoBanner>
+          <Offers></Offers>
           <Announcement></Announcement>
           <Facility></Facility>
-          <Offers></Offers>
+          
           <Faculties></Faculties>
           <RecentEvent></RecentEvent>
           <Testimonial></Testimonial>
