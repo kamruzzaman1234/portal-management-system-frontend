@@ -30,8 +30,8 @@ const Facility = ()=>{
                 </div>
                 <div className="mt-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-gray-100 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+              <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-gray-100 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>
@@ -44,8 +44,8 @@ const Facility = ()=>{
                </div>
              </Link>
 
-             <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+             <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>
@@ -58,8 +58,8 @@ const Facility = ()=>{
                </div>
              </Link>
 
-             <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+             <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>
@@ -72,8 +72,8 @@ const Facility = ()=>{
                </div>
              </Link>
 
-             <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+             <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>
@@ -86,8 +86,8 @@ const Facility = ()=>{
                </div>
              </Link>
 
-             <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+             <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>
@@ -100,8 +100,8 @@ const Facility = ()=>{
                </div>
              </Link>
 
-             <Link href="" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
-                              transition-all duration-300 delay-150 hover:bg-green-700 shadow-lg 
+             <Link href="/department" className="group flex gap-2 p-10 justify-between border-[0.5px] border-white 
+                              transition-all duration-300 delay-150 hover:bg-green-400 shadow-lg 
                               shadow-base-content transform hover:scale-105">
                     <div>
                        <h3 className={`${cinzel.className} text-2xl text-white transition-all duration-300 group-hover:text-3xl`}>

@@ -24,7 +24,7 @@ const Announcement = () => {
         <div className="bg-black opacity-70 absolute w-full h-full inset-0 top-0 z-10">
 
         </div>
-      <div className="max-w-7xl px-10 lg:px-0 w-full mx-auto z-50">
+      <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto z-50">
         <div className="p-8 rounded-2xl">
           {/* name of each tab group should be unique */}
           <div className="tabs tabs-border space-x-4">

@@ -39,7 +39,7 @@ const Faculties = ()=>{
                             <p className={`${inter.className} text-slate-500`}>A degree from SCIENCE AND IT will transform your life for the better. We are inviting
                              you to prepare yourself for the fourth industrial revolution which is already happening.</p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Faculties = ()=>{
                                 A degree from BUSINESS AND ENTREPRENEURSHIP will help you to become an independent
                                  thinker and take action for your next startup to become an entrepreneur...</p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Faculties = ()=>{
                             <p className={`${inter.className} text-slate-500`}>Studying HUMANITIES AND SOCIAL SCIENCE will help you excel in thinking, judgment, communication, and leadership skills. Along with corporate success,
                                  our alumni are making a positive impact on society and the community..</p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const Faculties = ()=>{
                             <p className={`${inter.className} text-slate-500`}>In the era of rapid integration & innovation of technology in every field of life,
                              becoming an ENGINEERING graduate will give you the opportunity of high potential career growth..</p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const Faculties = ()=>{
 
 </p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ const Faculties = ()=>{
 
 </p>
                             <div className="mt-8">
-                                <Link href="" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
+                                <Link href="/typeForm" className={`${inter.className} px-6 py-3 bg-green-500 text-white`}>Apply Now</Link>
                             </div>
                         </div>
                     </div>

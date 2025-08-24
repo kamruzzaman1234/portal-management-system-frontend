@@ -39,9 +39,9 @@ const VideoBanner = () => {
             <div className="flex gap-4">
                 <Link href="" className={`${cinzel.className} px-8 py-3 bg-green-500
                  font-semibold text-white`}>Apply Now</Link>
-                 <Link href="" className={`${cinzel.className} px-8 py-3 border-2 border-green-500 
+                 <Link href="/about" className={`${cinzel.className} px-8 py-3 border-2 border-green-500 
                  transition-all delay-150 duration-300 hover:bg-green-500
-                 font-semibold text-white`}>Explore Programs</Link>
+                 font-semibold text-white`}>About Our Details</Link>
             </div>
             </div>
        </div> 

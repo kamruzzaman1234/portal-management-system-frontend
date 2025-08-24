@@ -26,7 +26,7 @@ const Alumni = ()=>{
                     </div>
                 </div>
                 <div className="mt-14">
-                    <div className="carousel w-full">
+                    <div className="carousel w-full bg-slate-900 py-14">
   <div id="slide1" className="carousel-item relative w-full">
         <div className="max-w-2xl w-full mx-auto">
             <div className="flex justify-between gap-10">
@@ -34,13 +34,13 @@ const Alumni = ()=>{
                     <img src="https://i.ibb.co.com/bjkZwTfF/testimg.jpg" alt="" />
                 </div>
                 <div className="space-y-3">
-                    <h2 className={`text-lg`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
-                    <h2 className="text-lg"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
-                    <h2 className="text-lg"><span className="font-bold">ID:</span> 191-15-434</h2>
+                    <h2 className={`text-lg text-white`}><span className="font-bold ">Name:</span> Ankita Rahman</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold ">Department</span> Computer Science and Engineering</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold ">ID:</span> 191-15-434</h2>
                 </div>
             </div>
         </div>
-    <div className="absolute left-25 right-25 top-1/2 flex -translate-y-1/2 transform justify-between">
+    <div className="absolute space-x-2 -bottom-10 left-1/2 -translate-x-1/2 transform justify-center">
       <a href="#slide4" className="btn btn-circle bg-slate-700 text-white">❮</a>
       <a href="#slide2" className="btn btn-circle bg-slate-700 text-white">❯</a>
     </div>
@@ -52,13 +52,13 @@ const Alumni = ()=>{
                     <img src="https://i.ibb.co.com/bjkZwTfF/testimg.jpg" alt="" />
                 </div>
                 <div className="space-y-3">
-                    <h2 className={`text-lg`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
-                    <h2 className="text-lg"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
-                    <h2 className="text-lg"><span className="font-bold">ID:</span> 191-15-434</h2>
+                    <h2 className={`text-lg text-white`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">ID:</span> 191-15-434</h2>
                 </div>
             </div>
         </div>
-    <div className="absolute left-25 right-25 top-1/2 flex -translate-y-1/2 transform justify-between">
+    <div className="absolute space-x-2 -bottom-10 left-1/2 -translate-x-1/2 transform justify-center">
       <a href="#slide1" className="btn btn-circle bg-slate-700 text-white">❮</a>
       <a href="#slide3" className="btn btn-circle bg-slate-700 text-white ">❯</a>
     </div>
@@ -70,13 +70,13 @@ const Alumni = ()=>{
                     <img src="https://i.ibb.co.com/bjkZwTfF/testimg.jpg" alt="" />
                 </div>
                 <div className="space-y-3">
-                    <h2 className={`text-lg`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
-                    <h2 className="text-lg"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
-                    <h2 className="text-lg"><span className="font-bold">ID:</span> 191-15-434</h2>
+                    <h2 className={`text-lg text-white`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">ID:</span> 191-15-434</h2>
                 </div>
             </div>
         </div>
-    <div className="absolute left-25 right-25 top-1/2 flex -translate-y-1/2 transform justify-between">
+    <div className="absolute space-x-2 -bottom-10 left-1/2 -translate-x-1/2 transform justify-center">
       <a href="#slide2" className="btn btn-circle bg-slate-700 text-white ">❮</a>
       <a href="#slide4" className="btn btn-circle bg-slate-700 text-white ">❯</a>
     </div>
@@ -88,13 +88,13 @@ const Alumni = ()=>{
                     <img src="https://i.ibb.co.com/bjkZwTfF/testimg.jpg" alt="" />
                 </div>
                 <div className="space-y-3">
-                    <h2 className={`text-lg`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
-                    <h2 className="text-lg"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
-                    <h2 className="text-lg"><span className="font-bold">ID:</span> 191-15-434</h2>
+                    <h2 className={`text-lg text-white`}><span className="font-bold">Name:</span> Ankita Rahman</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">Department</span> Computer Science and Engineering</h2>
+                    <h2 className="text-lg text-white"><span className="font-bold">ID:</span> 191-15-434</h2>
                 </div>
             </div>
         </div>
-    <div className="absolute left-25 right-25 top-1/2 flex -translate-y-1/2 transform justify-between">
+    <div className="absolute space-x-2 -bottom-10 left-1/2 -translate-x-1/2 transform justify-center">
       <a href="#slide3" className="btn btn-circle bg-slate-700 text-white ">❮</a>
       <a href="#slide1" className="btn btn-circle bg-slate-700 text-white ">❯</a>
     </div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Cinzel } from "next/font/google";
 import { FaGoogle, FaGithub } from "react-icons/fa";
 import { useSession, signIn, signOut } from "next-auth/react";
+import { usePathname } from "next/navigation";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -13,10 +14,11 @@ const cinzel = Cinzel({
 
 export default function Navbar() {
   const { data: session } = useSession();
+  const pathname = usePathname(); // ✅ Get current active path
 
- 
   const Links = session
     ? [
+        { title:"Home", path: "/" },
         { title: "Teacher Portal", path: "/teacherPortal" },
         { title: "Student Portal", path: "/studentProfile" },
         { title: "Type Form", path: "/typeForm" },
@@ -46,7 +48,11 @@ export default function Navbar() {
                   <li key={link.path}>
                     <Link
                       href={link.path}
-                      className={`${cinzel.className} font-semibold text-white`}
+                      className={`${cinzel.className} font-semibold ${
+                        pathname === link.path
+                          ? "text-green-400 border-b-2 border-green-400" // ✅ Active link style
+                          : "text-white"
+                      }`}
                     >
                       {link.title}
                     </Link>
@@ -67,7 +73,11 @@ export default function Navbar() {
                 <li key={link.path}>
                   <Link
                     href={link.path}
-                    className={`${cinzel.className} font-semibold text-white text-lg`}
+                    className={`${cinzel.className} font-semibold text-lg ${
+                      pathname === link.path
+                        ? "text-green-400 border-b-2 border-green-400" // ✅ Active link style
+                        : "text-white"
+                    }`}
                   >
                     {link.title}
                   </Link>
@@ -80,16 +90,13 @@ export default function Navbar() {
           <div className="navbar-end">
             {session ? (
               <div className="flex items-center gap-3 text-white">
-                <span className="font-semibold">
-                  {session.user?.image && (
-                    <img
-                      src={session.user.image}
-                      alt={session.user?.name || "User Avatar"}
-                      className="w-10 h-10 rounded-full border-2 border-white shadow-md"
-                    />
-                  )}
-                </span>
-
+                {session.user?.image && (
+                  <img
+                    src={session.user.image}
+                    alt={session.user?.name || "User Avatar"}
+                    className="w-10 h-10 rounded-full border-2 border-white shadow-md"
+                  />
+                )}
                 <button
                   onClick={() => signOut({ callbackUrl: "/" })}
                   className="px-5 py-2 uppercase cursor-pointer bg-red-500 text-white font-semibold transition-colors"

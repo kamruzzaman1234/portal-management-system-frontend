@@ -25,8 +25,8 @@ const inter = Inter({
 
  const Testimonial = ()=>{
     return(
-        <div className="py-20 bg-slate-700">
-            <div className="max-w-7xl w-full mx-auto">
+        <div className="py-20 bg-blue-950">
+            <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto">
                 <div className="max-w-4xl w-full mx-auto">
                     <div className="flex flex-col gap-2">
                     <h2 className={`${cinzel.className} text-3xl font-bold text-center text-white`}>Visitor's says about us</h2>
