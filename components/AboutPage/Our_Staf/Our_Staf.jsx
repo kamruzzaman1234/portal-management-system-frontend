@@ -30,7 +30,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
  const Our_Staf = ()=>{
     return(
         <div className="py-20">
-            <div className="max-w-7xl w-full mx-auto">
+            <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto">
                 <div className="max-w-3xl w-full mx-auto">
                     <div className="flex flex-col gap-2">
                     <h2 className={`${cinzel.className} text-3xl font-bold text-center text-black`}>OUR EXPERIENCED STAFFS</h2>

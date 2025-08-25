@@ -18,7 +18,7 @@ const inter = Inter({
 const Faculties = ()=>{
     return(
         <div className="py-20 bg-blue-100 bg-fixed">
-            <div className="max-w-7xl w-full mx-auto">
+            <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto">
                  <div className="max-w-3xl w-full mx-auto">
                     <div className="flex flex-col gap-2">
                     <h2 className={`${cinzel.className} text-3xl font-bold text-center text-black`}>Our Faculties</h2>

@@ -20,8 +20,8 @@ const inter = Inter({
 const Offers = ()=>{
     return(
         <div className="">
-            <div className="max-w-7xl w-full mx-auto">
-                <div className="flex justify-between gap-10">
+            <div className="max-w-7xl px-12 lg:px-0 w-full mx-auto">
+                <div className="flex flex-col lg:flex-row justify-between gap-10">
                     <div className="w-full lg:w-1/2">
                         <div className="py-20">
                                 <div className="space-y-2">

@@ -99,7 +99,7 @@ export default function Navbar() {
                 )}
                 <button
                   onClick={() => signOut({ callbackUrl: "/" })}
-                  className="px-5 py-2 uppercase cursor-pointer bg-red-500 text-white font-semibold transition-colors"
+                  className="px-5 py-2 uppercase cursor-pointer bg-blue-500 text-white font-semibold transition-colors"
                 >
                   Logout
                 </button>

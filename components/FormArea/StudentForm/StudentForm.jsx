@@ -74,7 +74,7 @@ const StudentForm = () => {
         </div>
 
         <form onSubmit={submitHandler}>
-          {/* উদাহরণ: Full Name */}
+         
           <div className="mb-6 flex flex-col gap-4">
             <label className={`${cinzel.className} text-lg font-bold`}>Full Name</label>
             <input type="text" name="full_name" className="input input-bordered w-full" placeholder="Enter Your Name" />
