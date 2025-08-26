@@ -9,7 +9,7 @@ const StudentProfile = () => {
   
   return (
     <div>
-      <ProfileNavbar />
+      {/* <ProfileNavbar /> */}
       <AllStudents></AllStudents>
     </div>
   );
