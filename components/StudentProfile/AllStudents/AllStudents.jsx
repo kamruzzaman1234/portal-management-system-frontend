@@ -14,7 +14,7 @@ const cinzel = Cinzel({
 const AllStudents = ()=>{
     const [students, setStudents] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:6060/students_signup')
+        fetch('http://localhost:6060/students_singup')
         .then(res=> res.json())
         .then(data=>{
             console.log(data)
