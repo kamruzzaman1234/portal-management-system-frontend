@@ -26,9 +26,9 @@ const Announcement = () => {
         </div>
       <div className="max-w-7xl px-8 lg:px-0 w-full mx-auto z-50">
         <div className="p-8 rounded-2xl">
-          {/* name of each tab group should be unique */}
+         
           <div className="tabs tabs-border space-x-4">
-            {/* First Tab */}
+          
             <input
               type="radio"
               name="my_tabs_2"
@@ -39,7 +39,7 @@ const Announcement = () => {
             <div className="tab-content border-base-300 z-10 px-6 py-8 mt-6">
               <div className="flex  justify-between">
                 <div className="flex flex-col relative z-50 gap-8">
-                  {/* Item 1 */}
+                
                   <div className="flex gap-10 items-center">
                     <div className="flex flex-col items-center">
                       <h2

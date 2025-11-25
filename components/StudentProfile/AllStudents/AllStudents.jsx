@@ -13,6 +13,7 @@ const cinzel = Cinzel({
 
 const AllStudents = ()=>{
     const [students, setStudents] = useState([])
+    
     useEffect(()=>{
         fetch('http://localhost:6060/students_singup')
         .then(res=> res.json())
@@ -21,6 +22,28 @@ const AllStudents = ()=>{
             setStudents(data)
         })
     },[])
+
+ const handleDelete = async (_id) => {
+  if (!confirm("Are you sure you want to delete?")) return;
+
+  try {
+    const res = await fetch(`http://localhost:6060/students_signup/${_id}`, {
+      method: "DELETE",
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      setStudents(prev => prev.filter(item => item._id !== _id));
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+
+
+
     return(
         <div className="py-20">
             <div className="max-w-7xl w-full mx-auto">
@@ -30,7 +53,9 @@ const AllStudents = ()=>{
                 <div className="mt-12">
                     <div className="grid grid-cols-3 gap-8">
                         {
-                            students.map((student)=> <StudentCard student={student} key={student._id}></StudentCard>)
+                            students.map((student)=> <StudentCard 
+                            student={student} key={student._id} 
+                            handleDelete={handleDelete}></StudentCard>)
                         }
                     </div>
                 </div>

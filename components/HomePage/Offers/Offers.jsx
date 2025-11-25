@@ -39,8 +39,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>Accommodation</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>We are providing a secure and convenient living facility 
+                                                <h3 className={`${inter.className} text-lg font-medium`}>Accommodation</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>We are providing a secure and convenient living facility 
                                                     for our students. 
                                                     DIU dormitories are a home away from home....</p>
                                             </div>
@@ -52,8 +52,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>Transportation</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>To make the student’s life easier and safe, 
+                                                <h3 className={`${inter.className} text-lg font-medium`}>Transportation</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>To make the student’s life easier and safe, 
                                                     we are providing
                                                      50+ buses from different points of Dhaka city to.....</p>
                                             </div>
@@ -66,8 +66,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>Libray</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>Our library has a collection of over 50000 books,
+                                                <h3 className={`${inter.className} text-lg font-medium`}>Libray</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>Our library has a collection of over 50000 books,
                                                      journals, and research papers,
                                                      enriching the resources day by day....</p>
                                             </div>
@@ -80,8 +80,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>One Student One laptop</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>Under the ‘One student one laptop’ project, 
+                                                <h3 className={`${inter.className} text-lg font-medium`}>One Student One laptop</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>Under the ‘One student one laptop’ project, 
                                                     EWU has distributed over 25000 f...</p>
                                             </div>
                                         </div>
@@ -93,8 +93,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>Blended Learning platform</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>To engage students in learning after 
+                                                <h3 className={`${inter.className} text-lg font-medium`}>Blended Learning platform</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>To engage students in learning after 
                                                  face-to-face classes,
                                                  our faculty members and students collaborate in the online...</p>
                                             </div>
@@ -107,8 +107,8 @@ const Offers = ()=>{
                                             </div>
                                             </div>
                                             <div className="w-[] space-y-3">
-                                                <h3 className={`${inter.className} text-2xl font-medium`}>Sports and Gymnatium</h3>
-                                                <p className={`${inter.className} text-lg font-normal`}>To ensure the mental and physical well-being of
+                                                <h3 className={`${inter.className} text-lg font-medium`}>Sports and Gymnatium</h3>
+                                                <p className={`${inter.className} text-sm font-normal`}>To ensure the mental and physical well-being of
                                                      our students and employees, 
                                                     we are providing a well-equipped gymnasiu...</p>
                                             </div>
