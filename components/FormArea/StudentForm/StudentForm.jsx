@@ -48,7 +48,7 @@ const StudentForm = () => {
         toast.success("Student registered successfully!");
         form.reset();
 
-        // studentId দিয়ে studentProfile page এ পাঠানো
+      
         setTimeout(() => {
           router.push(`/studentProfile`);
         }, 1500);
