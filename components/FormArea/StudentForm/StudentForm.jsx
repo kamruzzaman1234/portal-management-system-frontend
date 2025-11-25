@@ -36,7 +36,7 @@ const StudentForm = () => {
     };
 
     try {
-      const res = await fetch("http://localhost:6060/students_signup", {
+      const res = await fetch("https://portal-management-system-backend-1.onrender.com/students_signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(allInfo)

@@ -46,7 +46,7 @@ const TeacherForm = () => {
 
     try {
       // POST request using fetch
-      const res = await fetch(`http://localhost:6060/teacher`, {
+      const res = await fetch(`https://portal-management-system-backend-1.onrender.com/teacher`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
