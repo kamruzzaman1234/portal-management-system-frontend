@@ -26,7 +26,7 @@ const StudentDetails = () => {
 
   useEffect(() => {
     const fetchStudent = async () => {
-      const res = await fetch(`http://localhost:6060/students/${id}`);
+      const res = await fetch(`https://portal-management-system-backend-1.onrender.com/students/${id}`);
       const data = await res.json();
       setStudent(data);
       console.log("Your data is", data);

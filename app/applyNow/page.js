@@ -9,7 +9,7 @@ export default function ApplyNow() {
   const router = useRouter();
 
   useEffect(() => {
-    // যদি login না করে, তাহলে modal open হবে
+    
     if (status === "unauthenticated") {
       const modal = document.getElementById("login_modal");
       if (modal) {

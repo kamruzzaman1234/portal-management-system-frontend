@@ -29,7 +29,7 @@ export default function DepartmentDetails() {
 
     const fetchDepartment = async () => {
       try {
-        const res = await fetch(`http://localhost:6060/department/${id}`);
+        const res = await fetch(`https://portal-management-system-backend-1.onrender.com/department/${id}`);
         if (!res.ok) throw new Error("Failed to fetch department");
         const data = await res.json();
         setDepartment(data);

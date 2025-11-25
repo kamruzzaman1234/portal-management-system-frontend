@@ -28,7 +28,7 @@ export default function TeacherProfile() {
     if (!id) return;
     const fetchTeacher = async () => {
       try {
-        const res = await fetch(`http://localhost:6060/teacher/${id}`);
+        const res = await fetch(`https://portal-management-system-backend-1.onrender.com/teacher/${id}`);
         if (!res.ok) {
           throw new Error("Failed to fetch teacher data");
         }
